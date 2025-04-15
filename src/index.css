@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root  {
+  margin:0;
+  padding:0;
+  --primary-color: #070F2B;
+  --secondary-color: #E8E8E8;
+}
+
+* {
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+}
