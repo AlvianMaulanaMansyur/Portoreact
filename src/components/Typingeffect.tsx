@@ -3,7 +3,7 @@ import { TypeAnimation  } from "react-type-animation";
 export default function Typingeffect() {
     return (
         <h1 className="text-2xl">
-            I'm a {' '}
+            I’m a {' '}
             <span className="text-cyan-400 ">
                 <TypeAnimation
                  sequence={[

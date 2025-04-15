@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 .eslintrc.json
-.prettierrc.json
+.prettierrc
