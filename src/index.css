@@ -12,5 +12,15 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: screen;
   background-color: var(--primary-color);
+  background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  position: relative;
+  z-index: -2;
 }
+

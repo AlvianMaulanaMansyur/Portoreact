@@ -25,3 +25,6 @@ dist-ssr
 
 .eslintrc.json
 .prettierrc
+
+package-lock.json
+package.json

@@ -1,5 +1,6 @@
 import About from './About';
 import MainButton from './MainButton';
+import TechStack from './TechStack';
 import Typingeffect from './Typingeffect';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -26,7 +27,7 @@ function Main() {
 
         {/* ====== foto ====== */}
         <div className="relative w-84 h-84 mb-10 md:w-90 md:h-90 mt-5 md:mt-0 mx-auto lg:mx-0 ">
-          <div className="absolute inset-0 rounded-full border-4 border-purple-600" />
+          <div className="absolute inset-0 rounded-full border-7 border-purple-600 animate-pulse" />
           <div className="absolute inset-5 rounded-full overflow-hidden z-10 border-4 border-gray-700">
             <img
               src="images/fotoDiri.jpg"
@@ -38,6 +39,9 @@ function Main() {
         </div>
       </div>
       <About />
+      <div className="pt-[100vh]">
+      <TechStack />
+      </div>
     </main>
   );
 }
