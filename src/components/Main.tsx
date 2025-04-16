@@ -1,5 +1,8 @@
 import About from './About';
 import MainButton from './MainButton';
+import Project from './Project';
+
+
 import TechStack from './TechStack';
 import Typingeffect from './Typingeffect';
 
@@ -8,9 +11,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function Main() {
   return (
     <main>
+      
       <div className="flex flex-col-reverse mb-10 lg:mb-2 mt-20 max-w-lg lg:max-w-5xl lg:flex-row  mx-auto justify-between gap-10 lg:h-screen lg:mt-0  items-center">
         <div className="text-white font-extrabold ">
+          
           <p className="text-xl mb-5">Hi, my name is </p>
+          
           <p className="text-7xl mb-2">
             AL<span className="text-cyan-300">VIAN</span> <br /> MAULANA
           </p>
@@ -42,6 +48,7 @@ function Main() {
       <div className="pt-[100vh]">
       <TechStack />
       </div>
+      <Project />
     </main>
   );
 }

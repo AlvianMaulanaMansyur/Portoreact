@@ -18,5 +18,4 @@ export const techStack: Tech[] = [
   { name: "PHP", icon: SiPhp, color: "#4F5B93" },
   { name: "Laravel", icon: SiLaravel, color: "#FF2D20" },
   { name: "React", icon: SiReact, color: "#61DAFB" },
- 
 ];
