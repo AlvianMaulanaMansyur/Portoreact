@@ -12,7 +12,7 @@ function Main() {
   return (
     <main>
       
-      <div className="flex flex-col-reverse mb-10 lg:mb-2 mt-20 max-w-lg lg:max-w-5xl lg:flex-row  mx-auto justify-between gap-10 lg:h-screen lg:mt-0  items-center">
+      <div className="flex flex-col-reverse mb-10 lg:mb-2 mt-20 max-w-lg lg:max-w-5xl lg:flex-row  mx-auto justify-between gap-10 lg:h-screen lg:mt-0  items-center" id='home'>
         <div className="text-white font-extrabold ">
           
           <p className="text-xl mb-5">Hi, my name is </p>
@@ -25,9 +25,9 @@ function Main() {
             <MainButton label="Contact Me!" onClick={() => console.log('halo')} variant="primary" />
             <MainButton label="Download CV" onClick={() => console.log('halo')} variant="secondary" />
           </div>
-          <div className="flex justify-center lg:justify-start text-4xl gap-2 mt-5 ">
-            <a href="#" target="_blank"><i className="fa-brands fa-linkedin me-3" /></a>
-            <a href="#" target="_blank"><i className="fa-brands fa-github " style={{ color: '#fff;' }} /></a>
+          <div className="flex justify-center lg:justify-start text-4xl gap-2 mt-5 text-white">
+            <a href="https://www.linkedin.com/in/alvian-maulana-mansyur/" target="_blank"><i className="fa-brands fa-linkedin me-3" /></a>
+            <a href="https://github.com/AlvianMaulanaMansyur" target="_blank"><i className="fa-brands fa-github " style={{ color: '#fff;' }} /></a>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function Main() {
         </div>
       </div>
       <About />
-      <div className="pt-[100vh]">
+      <div className="">
       <TechStack />
       </div>
       <Project />

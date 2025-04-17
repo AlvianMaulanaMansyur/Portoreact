@@ -3,7 +3,7 @@ import { techStack } from '../constants/TechStack';
 
 const ProjectSection = () => {
   return (
-    <section className="py-10 px-5 text-white">
+    <section className="py-10 px-5 text-white" id='projects'>
       <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {projects.map((project, index) => (
