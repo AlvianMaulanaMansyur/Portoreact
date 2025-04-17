@@ -3,9 +3,9 @@ import { techStack } from '../constants/TechStack';
 
 const ProjectSection = () => {
   return (
-    <section className="py-10 px-5 text-white" id='projects'>
+    <section className="py-20 lg:py-10 px-5 text-white" id='projects'>
       <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-5 lg:gap-10 max-w-6xl mx-auto">
         {projects.map((project, index) => (
           <div key={index} className="bg-slate-800 rounded-lg shadow-md overflow-hidden ">
             <img src={project.image} loading='lazy' alt={project.name} className="w-full h-auto object-cover rounded-4xl p-5" />

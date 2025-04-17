@@ -22,7 +22,7 @@ function Main() {
           </p>
           <Typingeffect />
           <div className="flex justify-center lg:justify-start gap-4 mt-5">
-            <MainButton label="Contact Me!" onClick={() => console.log('halo')} variant="primary" />
+            <MainButton label="Contact Me!" onClick={() => { window.open("https://mail.google.com/mail/?view=cm&fs=1&to=alvianmaulana0704@gmail.com&su=Hello&body=I%20would%20like%20to%20connect!", "_blank" ) }} variant="primary" />
             <MainButton label="Download CV" onClick={() => console.log('halo')} variant="secondary" />
           </div>
           <div className="flex justify-center lg:justify-start text-4xl gap-2 mt-5 text-white">

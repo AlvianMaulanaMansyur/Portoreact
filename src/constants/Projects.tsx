@@ -6,12 +6,11 @@ export const projects = [
     image: 'images/GemarBerbagi.jpeg',
     github: 'https://github.com/AlvianMaulanaMansyur/GemarBerbagi',
     demo: 'https://alvianmaulanamansyur.github.io/GemarBerbagi/',
-    tech: ['HTML', 'CSS',],
+    tech: ['HTML', 'CSS'],
   },
   {
     name: 'Bali Nirvana Computer E-Commerce',
-    description:
-      'Bali Nirvana Computer" is an e-commerce website created to reach a wider range of buyers and enhance sales effectiveness. This website sells various electronic products ranging from laptops, computers, printers, ink, etc',
+    description: 'Bali Nirvana Computer" is an e-commerce website created to reach a wider range of buyers and enhance sales effectiveness. This website sells various electronic products ranging from laptops, computers, printers, ink, etc',
     image: 'images/ecommerce.JPG',
     github: 'https://github.com/AlvianMaulanaMansyur/BaliNirvanaComputer',
     demo: 'https://ecommerce.lab-trpl.id/',
@@ -19,10 +18,9 @@ export const projects = [
   },
   {
     name: 'Online Reservation Adi Abian Villa',
-    description:
-      'Bali Nirvana Computer" is an e-commerce website created to reach a wider range of buyers and enhance sales effectiveness. This website sells various electronic products ranging from laptops, computers, printers, ink, etc',
-    image: 'images/ecommerce.JPG',
-    github: 'https://github.com/AlvianMaulanaMansyur/BaliNirvanaComputer',
+    description: 'Adi Abian Villa" is a web-based online reservation system designed to facilitate the booking process for guests. This system allows users to check room availability, make reservations, and manage their bookings efficiently.',
+    image: 'images/AdiAbian.png',
+    github: 'https://github.com/AlvianMaulanaMansyur/AdiAbianVilla',
     demo: '',
     tech: ['PHP', 'CSS', 'JavaScript', 'CodeIgniter', 'Tailwind CSS', 'MySQL'],
   },
@@ -35,5 +33,4 @@ export const projects = [
     demo: '',
     tech: ['PHP', 'CSS', 'JavaScript', 'Laravel', 'Tailwind CSS', 'MySQL'],
   },
-  
 ];
